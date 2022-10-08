@@ -1,0 +1,6 @@
+plugin:
+    name: 'zptdigital.cadastrovendas::lang.plugin.name'
+    description: 'zptdigital.cadastrovendas::lang.plugin.description'
+    author: zptdigital
+    icon: oc-icon-building-o
+    homepage: ''
