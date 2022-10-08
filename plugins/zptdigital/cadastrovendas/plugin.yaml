@@ -4,3 +4,25 @@ plugin:
     author: zptdigital
     icon: oc-icon-building-o
     homepage: ''
+navigation:
+    main-menu-add-salles:
+        label: 'Cadastro de Vendas'
+        url: zptdigital/cadastrovendas/salllers
+        icon: icon-cart-plus
+        sideMenu:
+            side-menu-salles:
+                label: Vendas
+                url: /
+                icon: icon-shopping-cart
+            side-menu-sallers:
+                label: Vendedores
+                url: zptdigital/cadastrovendas/salllers
+                icon: icon-users
+            side-menu-products:
+                label: Produtos
+                url: /
+                icon: icon-cube
+permissions:
+    manage_sales_record:
+        tab: 'Cadastro de Vendas'
+        label: zptdigital
