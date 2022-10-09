@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+sales:
+    label: Registro de Vendas
+    view:
+        list: ~/plugins/zptdigital/cadastrovendas/models/sales/columns.yaml
+        toolbarButtons: create
+        showCheckboxes: false
+    manage:
+        form: ~/plugins/zptdigital/cadastrovendas/models/sales/fields.yaml
+        recordsPerPage: 10

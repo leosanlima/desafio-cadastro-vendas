@@ -33,4 +33,8 @@ class Seller extends Model
     public $attachOne = [
         'photo' => 'System\Models\File'
     ];
+
+    public $hasMany = [
+        'sales' => [Sales::class],
+    ];
 }

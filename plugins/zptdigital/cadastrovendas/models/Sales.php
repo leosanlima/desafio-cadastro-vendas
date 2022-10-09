@@ -14,7 +14,7 @@ class Sales extends Model
      */
     public $table = 'zptdigital_cadastrovendas_vendas';
 
-    protected $dates = ['date_sale'];
+    //protected $dates = ['date_sale'];
 
     /**
      * @var array Validation rules

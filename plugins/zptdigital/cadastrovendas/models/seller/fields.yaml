@@ -35,6 +35,21 @@ fields:
         type: datepicker
 tabs:
     fields:
+        performance:
+            label: ''
+            span: full
+            path: performance
+            type: partial
+            tab: Desempenho
+        sales_record:
+            label: 'Registro de Vendas'
+            span: full
+            path: sales_record
+            context:
+                - update
+                - preview
+            type: partial
+            tab: Vendas
         address_postcode:
             label: CEP
             span: auto
@@ -55,3 +70,5 @@ tabs:
             span: auto
             type: text
             tab: Endereço
+        
+

@@ -17,7 +17,6 @@ columns:
     amount:
         label: Quantidade
         type: number
-
     created_at:
         label: 'Data do Cadastro'
         type: datetime

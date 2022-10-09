@@ -15,7 +15,7 @@ class BuilderTableCreateZptdigitalCadastrovendasVendas extends Migration
             $table->integer('seller_id');
             $table->integer('product_id');
             $table->integer('amount')->unsigned();
-            $table->date('date_sale');
+            $table->timestamp('date_sale');
             $table->text('description')->nullable();
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
