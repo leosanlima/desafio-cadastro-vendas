@@ -1,0 +1,10 @@
+name: 'registro de vendas'
+modelClass: Zptdigital\Cadastrovendas\Models\Sales
+form: $/zptdigital/cadastrovendas/models/sales/fields.yaml
+defaultRedirect: zptdigital/cadastrovendas/sales
+create:
+    redirect: 'zptdigital/cadastrovendas/sales/update/:id'
+    redirectClose: zptdigital/cadastrovendas/sales
+update:
+    redirect: zptdigital/cadastrovendas/sales
+    redirectClose: zptdigital/cadastrovendas/sales

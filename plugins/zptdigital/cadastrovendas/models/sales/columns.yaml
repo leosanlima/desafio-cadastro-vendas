@@ -1,0 +1,24 @@
+columns:
+    date_sale:
+        label: 'Data da Venda'
+        type: date
+    seller:
+        label: Vendedor
+        type: text
+        searchable: true
+        select: name
+        relation: seller
+    product:
+        label: Produto
+        type: text
+        searchable: true
+        select: name
+        relation: product
+    amount:
+        label: Quantidade
+        type: number
+
+    created_at:
+        label: 'Data do Cadastro'
+        type: datetime
+        invisible: true

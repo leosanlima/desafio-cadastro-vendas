@@ -1,0 +1,10 @@
+name: Vendedor
+modelClass: Zptdigital\Cadastrovendas\Models\Seller
+form: $/zptdigital/cadastrovendas/models/seller/fields.yaml
+defaultRedirect: zptdigital/cadastrovendas/sallers
+create:
+    redirect: 'zptdigital/cadastrovendas/sallers/update/:id'
+    redirectClose: zptdigital/cadastrovendas/sallers
+update:
+    redirect: zptdigital/cadastrovendas/sallers
+    redirectClose: zptdigital/cadastrovendas/sallers

@@ -1,2 +1,11 @@
 1.0.1:
     - 'Iniciando plugin Cadastro de Vendas'
+1.0.2:
+    - 'Criando tabela de Vendedores'
+    - builder_table_create_zptdigital_cadastrovendas_vendedores.php
+1.0.3:
+    - 'Criando tabela de Produtos'
+    - builder_table_create_zptdigital_cadastrovendas_produtos.php
+1.0.4:
+    - 'Criando tabela de cadastro de vendas'
+    - builder_table_create_zptdigital_cadastrovendas_vendas.php

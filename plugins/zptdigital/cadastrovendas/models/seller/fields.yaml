@@ -1,0 +1,57 @@
+fields:
+    name:
+        label: Nome
+        span: left
+        required: 1
+        type: text
+    photo:
+        label: Foto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: auto
+            extension: auto
+        span: auto
+        type: fileupload
+    email:
+        label: Email
+        span: left
+        required: 1
+        type: text
+    cpf:
+        label: CPF
+        span: left
+        required: 1
+        type: text
+    mobile:
+        label: Celular
+        span: left
+        required: 1
+        type: number
+    birth_date:
+        label: 'Data de Nascimento'
+        mode: date
+        span: left
+        type: datepicker
+tabs:
+    fields:
+        address_postcode:
+            label: CEP
+            span: auto
+            type: text
+            tab: Endereço
+        address_street:
+            label: Endereço
+            span: auto
+            type: text
+            tab: Endereço
+        address_number:
+            label: Número
+            span: auto
+            type: text
+            tab: Endereço
+        address_others:
+            label: Complemento
+            span: auto
+            type: text
+            tab: Endereço

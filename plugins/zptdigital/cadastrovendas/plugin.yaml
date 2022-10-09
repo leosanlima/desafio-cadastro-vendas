@@ -7,20 +7,20 @@ plugin:
 navigation:
     main-menu-add-salles:
         label: 'Cadastro de Vendas'
-        url: zptdigital/cadastrovendas/salllers
+        url: zptdigital/cadastrovendas/sallers
         icon: icon-cart-plus
         sideMenu:
             side-menu-salles:
                 label: Vendas
-                url: /
+                url: zptdigital/cadastrovendas/sales
                 icon: icon-shopping-cart
             side-menu-sallers:
                 label: Vendedores
-                url: zptdigital/cadastrovendas/salllers
+                url: zptdigital/cadastrovendas/sallers
                 icon: icon-users
             side-menu-products:
                 label: Produtos
-                url: /
+                url: zptdigital/cadastrovendas/products
                 icon: icon-cube
 permissions:
     manage_sales_record:

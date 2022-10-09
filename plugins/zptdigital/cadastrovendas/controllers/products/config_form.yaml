@@ -1,0 +1,10 @@
+name: Products
+form: $/zptdigital/cadastrovendas/models/product/fields.yaml
+modelClass: Zptdigital\Cadastrovendas\Models\Product
+defaultRedirect: zptdigital/cadastrovendas/products
+create:
+    redirect: 'zptdigital/cadastrovendas/products/update/:id'
+    redirectClose: zptdigital/cadastrovendas/products
+update:
+    redirect: zptdigital/cadastrovendas/products
+    redirectClose: zptdigital/cadastrovendas/products

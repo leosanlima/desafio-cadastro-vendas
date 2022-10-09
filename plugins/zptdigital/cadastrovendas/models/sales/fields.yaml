@@ -1,0 +1,59 @@
+fields:
+    seller:
+        label: Vendedor
+        nameFrom: name
+        descriptionFrom: description
+        emptyOption: 'Seleciona um vendedor'
+        span: auto
+        required: 1
+        type: relation
+        comment: 'Selecione o Vendedor'
+    reference:
+        label: Local
+        options:
+            loja-fisica: 'Loja Física'
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+        comment: 'Local onde foi feita a venda'
+    product:
+        label: Produto
+        nameFrom: name
+        descriptionFrom: description
+        emptyOption: 'Selecione um produto'
+        span: full
+        required: 1
+        type: relation
+        comment: 'Selecione o Produto'
+    amount:
+        label: Quantidade
+        span: auto
+        required: 1
+        trigger:
+            action: hide
+            field: product
+            condition: 'value[]'
+        type: number
+        comment: 'Quantidade vendidas do produto selecionado'
+    date_sale:
+        label: 'Data da Venda'
+        mode: date
+        span: auto
+        required: 1
+        trigger:
+            action: hide
+            field: product
+            condition: 'value[]'
+        type: datepicker
+        comment: 'Data em que foi efetuada a venda'
+    description:
+        label: Comentários
+        size: small
+        span: full
+        trigger:
+            action: hide
+            field: product
+            condition: 'value[]'
+        type: textarea
+        comment: 'Comentários relacionados a venda'

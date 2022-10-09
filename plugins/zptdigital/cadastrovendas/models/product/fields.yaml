@@ -1,0 +1,32 @@
+fields:
+    name:
+        label: Nome
+        span: full
+        required: 1
+        type: text
+        comment: 'Nome do Produto'
+    brand:
+        label: Marca
+        span: auto
+        type: text
+    model:
+        label: Modelo
+        span: auto
+        type: text
+    description:
+        label: 'Descrição do produto'
+        size: large
+        span: full
+        type: richeditor
+tabs:
+    fields:
+        images:
+            label: 'Imagens do produto'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: Imagens
