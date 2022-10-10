@@ -21,6 +21,7 @@ class Sallers extends Controller
     {
         parent::__construct();
         BackendMenu::setContext('Zptdigital.Cadastrovendas', 'main-menu-add-salles', 'side-menu-sallers');
+        $this->vars['sales_chart'] = null;
     }
 
     public function update($recordId, $context = null) {

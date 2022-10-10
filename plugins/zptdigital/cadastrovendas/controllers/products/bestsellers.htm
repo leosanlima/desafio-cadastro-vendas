@@ -1,0 +1,24 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('zptdigital/cadastrovendas/products') ?>">Produtos</a></li>
+        <li><span class="text-info">Relatório de Produtos mais vendidos<strong></strong></span></li>
+        
+    </ul>
+<?php Block::endPut() ?>
+
+<?php if (!$this->fatalError): ?>
+<div
+    class="control-chart"
+    data-control="chart-bar"
+    data-height="300"
+    data-full-width="100">
+    <ul>
+        <?php foreach ($bestsellersreport as $name => $total): ?>
+        <li><?= $name ?> <span><?= $total ?></span></li>
+        <?php endforeach; ?>
+    </ul>
+</div>
+
+<?php else: ?>
+    <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+<?php endif ?>

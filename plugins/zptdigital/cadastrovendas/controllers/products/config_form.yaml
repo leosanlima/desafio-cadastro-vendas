@@ -1,4 +1,4 @@
-name: Products
+name: Produto
 form: $/zptdigital/cadastrovendas/models/product/fields.yaml
 modelClass: Zptdigital\Cadastrovendas\Models\Product
 defaultRedirect: zptdigital/cadastrovendas/products

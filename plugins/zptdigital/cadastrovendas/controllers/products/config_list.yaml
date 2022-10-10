@@ -1,6 +1,6 @@
 list: $/zptdigital/cadastrovendas/models/product/columns.yaml
 modelClass: Zptdigital\Cadastrovendas\Models\Product
-title: Products
+title: Produto
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true
