@@ -63,6 +63,10 @@
         ],
         "sniff": [
             "phpcs --colors -nq --report=\"full\" --extensions=\"php\""
+        ],
+        "run-dev": [
+            "composer install",
+            "php artisan october:up"
         ]
     },
     "config": {
