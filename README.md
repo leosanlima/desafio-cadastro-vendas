@@ -38,6 +38,14 @@ $ composer install
 $ composer run-dev
 
 ```
+  A senha gerada para o usuário _admin_ será exibida após o primeiro seeder
+
+```shell
+Seeded Backend 
+
+\Backend\Database\Seeds\DatabaseSeeder reported:
+ - The following password has been automatically generated for the "admin" account: 2NXdoaEQlNBoIDamJvbIrJ
+```
 
 ## Configuração
 
